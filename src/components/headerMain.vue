@@ -27,7 +27,7 @@
         {title: "Team", href: "/team"},
         {title: "Contacts", href: "/contacts"},
        ],
-       phoneMain: "+3000000000"
+       phoneMain: "+300000000"
       }
     }
   }
