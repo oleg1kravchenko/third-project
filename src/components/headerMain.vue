@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="header__wrapper">
                     <a href="#" class="logo">
-
+                    <img :src="logo" alt="alt">
                     </a>
                     <ul class="menu">
                         <li v-for="itemMenu in menu"><a :href="itemMenu.href">{{ itemMenu.title }}</a></li>
@@ -27,7 +27,8 @@
         {title: "Team", href: "/team"},
         {title: "Contacts", href: "/contacts"},
        ],
-       phoneMain: "+300000000"
+       phoneMain: "+300000000",
+       logo: require('../assets/logo.png'),
       }
     }
   }
@@ -48,5 +49,11 @@
         font-weight: 700;
         text-transform: uppercase;
         color: #000;
+    }
+    .header {
+        background-image: url(../assets/billbord1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
   </style>
