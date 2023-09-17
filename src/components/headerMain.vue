@@ -40,6 +40,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        background-image: url(../assets/partner5.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
     .menu li {
         margin: 0 14px;
@@ -51,7 +55,7 @@
         color: #000;
     }
     .header {
-        background-image: url('../assets/billbord1.jpg');
+        background-image: url('../assets/news1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
