@@ -41,7 +41,7 @@
         justify-content: center;
     }
     .menu li {
-        margin: 0 10px;
+        margin: 0 14px;
     }
     .menu a {
         font-size: 18px;
