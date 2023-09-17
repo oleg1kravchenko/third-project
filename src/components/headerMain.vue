@@ -51,7 +51,7 @@
         color: #000;
     }
     .header {
-        background-image: url(../assets/billbord1.jpg);
+        background-image: url('../assets/billbord1.jpg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
